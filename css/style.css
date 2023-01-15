@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+
+#navbar{
+ text-align: right;   
+ background-color:red;   
+ font-style: italic;
+ font-size: larger;   
+}
+
+#welcome-section{
+ background-color: blue;
+ height: 500px;
+ 
+}
+
+#img-div{
+    background-color:aqua;
+
+    
+   }
+
+#footer{
+    background-color: blue;
+
+    
+   }
