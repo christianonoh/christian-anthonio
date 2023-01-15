@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     text-align: center;
     margin: 0px;
@@ -5,25 +10,60 @@ body{
 
 #navbar{
  text-align: right;   
- background-color:red;   
- font-style: italic;
- font-size: larger;   
+ background-color:#be3143;    
+ padding: 30px;
 }
 
-#welcome-section{
- background-color: blue;
+#welcome-section, #profile-link {
+color: white;
+ background-color: #2e2f32;
  height: 500px;
  
 }
 
-#img-div{
-    background-color:aqua;
-
-    
-   }
-
 #footer{
     background-color: blue;
+}
 
-    
-   }
+.center-height{
+    margin: 0;
+  position: relative;
+  top: 30%;
+  text-align: center;
+
+}
+
+#navbar a{
+    font-size: 30px;
+    color:white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#welcome-section h1, #profile-link h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+#welcome-section h2 {
+    font-size: 30px;
+    color: #be3143;
+    font-style: italic;
+    padding: 10px;
+}
+#projects {
+    background: #44567d;
+    padding: 40px;
+    height: fit-content;
+}
+
+.project-tile img {
+    padding: 20px;
+    width: 30%;
+}
+button{
+    padding: 10px;
+    background-color: green;
+}
+button:hover {
+    background-color: lightgreen;
+}
